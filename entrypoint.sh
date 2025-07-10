@@ -6,6 +6,7 @@ cd "$HOME"/rustdesk || exit 1
 
 argv=$*
 
+
 while test $# -gt 0; do
   case "$1" in
   --release)
